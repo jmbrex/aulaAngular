@@ -1,0 +1,32 @@
+<section id="navBar">
+    <img class="profile-image" src="img1.jpeg" >
+    <h2 id="name">{{ name }}</h2>
+    <hr />
+    <section id="content">
+      <section id="formacoes">
+        <app-about-me></app-about-me>
+        <hr />
+        <h3 class="title">Formações</h3>
+        <ul>
+          <li>{{ formacoes[0] }}</li>
+          <li>{{ formacoes[1] }}</li>
+        </ul>
+      </section>
+      <section id="curso">
+        <h3 class="title">Cursos</h3>
+        <ul>
+          <li>{{ cursos[0] }}</li>
+          <li>{{ cursos[1] }}</li>
+        </ul>
+      </section>
+      <hr />
+      <section id="contato">
+        <h3 class="title">Contato</h3>
+        <ul>
+          <li>{{ email }}</li>
+          <li>{{ numero }}</li>
+        </ul>
+      </section>
+    </section>
+  </section>
+  

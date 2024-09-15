@@ -1,0 +1,28 @@
+#siteContent {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+  }
+  #navBar {
+    width: 25%;
+    overflow-y: auto;
+  }
+  
+  #navBar::-webkit-scrollbar {
+    width: 3px;
+    background-color: black;
+  }
+  #navBar::-webkit-scrollbar-thumb {
+    background-color: whitesmoke; /* Cor do polegar (parte móvel) da barra */
+    width: 2px;
+  }
+  
+  #content {
+    width: 75%;
+    overflow-y: auto;
+  }
+  
+  /*
+  
+  */
+  

@@ -1,0 +1,30 @@
+h1,
+h2,
+h3,
+h4 {
+  color: black;
+  text-align: left;
+  margin-left: 2%;
+}
+li {
+  margin-left: 2%;
+}
+p {
+  margin-left: 2%;
+  text-align: left;
+  word-break: break-word;
+  width: 50%;
+}
+hr {
+  color: black;
+  background-color: black;
+  height: 2px;
+  width: 90%;
+}
+#content {
+  display: flex;
+  flex-direction: column;
+  background-color: whitesmoke;
+  min-height: 100vh;
+  /*height: 100%;*/
+}
