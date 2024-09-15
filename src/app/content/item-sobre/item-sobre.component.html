@@ -1,0 +1,14 @@
+<section id="content">
+  <h3 class="title">Sobre min</h3>
+  <p id="sobre">{{ sobre }}</p>
+  <h3 class="title">Skills</h3>
+  <h4 class="subTitle">Soft Skills</h4>
+  <ul>
+    <li *ngFor="let item of softSkill">{{ item }}</li>
+  </ul>
+  <h4 class="subTitle">Hard Skills</h4>
+    <ul>
+      <li *ngFor="let item of hardSkill">{{ item }}</li>
+    </ul>
+</section>
+

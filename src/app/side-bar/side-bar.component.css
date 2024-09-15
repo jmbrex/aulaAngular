@@ -1,4 +1,4 @@
-#navBar {
+#sideBar {
     background-color: black;
     min-height: 100vh;
     /*height: 100%;*/
@@ -43,4 +43,25 @@
     object-position: center; /* Centraliza a imagem dentro do container */
 }
 
-  
+#nav{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navButton{
+  width: 40%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border: none;
+  background-color: transparent;
+  color: white;
+  border-bottom: solid 3px white;
+  font-size: 18px;
+}
+
+.navButton:hover{
+  background-color: white;
+  color: black;
+  transition: 500ms;
+}
